@@ -1,5 +1,5 @@
 <?php
-session_start();
+
 $_SESSION['visitas'] =($_SESSION['visitas'] ?? 0) +1 ;
 $_SESSION['LastSect'] = $_SESSION['LastSect'] ?? basename($_SERVER['PHP_SELF']);
 $_SESSION['MomLastAct'] = $_SESSION['MomLastAct'] ?? 'Sin Actividad de momento';

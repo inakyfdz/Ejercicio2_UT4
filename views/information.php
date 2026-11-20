@@ -12,7 +12,7 @@
     <p><?php imprimirMomLastAct();?></p>
     <p><?php imprimirAlias()?></p>
 </div>
-<form>
+<form method="post">
     <label for="alias">Introduce tu nuevo alias:</label>
     <input type="text" id="alias" name="alias" placeholder="Escribe tu alias" required>
 
@@ -20,8 +20,8 @@
 </form>
 <p>A donde quieres ir </p>
 <div>
-    <a href="/public/contact.php"><button>Contacto</button></a>
-    <a href="/public/index.php.php"><button>indice</button></a>
+    <a href="/contact.php"><button>Contacto</button></a>
+    <a href="/index.php"><button>indice</button></a>
 </div>
 </body>
 </html>

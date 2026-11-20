@@ -13,8 +13,8 @@
 <p><?php imprimirAlias()?></p>
 <p>A donde quieres ir </p>
 <div>
-    <a href="/public/contact.php"><button>Contacto</button></a>
-    <a href="/public/informacion.php"><button>informacion</button></a>
+    <a href="/contact.php"><button>Contacto</button></a>
+    <a href="/info.php"><button>informacion</button></a>
 </div>
 </body>
 </html>

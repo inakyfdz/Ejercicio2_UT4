@@ -1,11 +1,6 @@
 {
-  "name": "ejercicio2_UT4",
-  "description": "ejercicio2_UT4",
-  "Version": "1.0.0",
-  "require": {
-    "php": "8.5.*"
-  },
+
   "scripts": {
-    "server": "php -S localhost:800"
+    "server": "php -S localhost:800 -t public"
   }
 }
